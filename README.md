@@ -6,15 +6,21 @@ The content of this repository is experimental and used for learning purposes. *
 ## Usage
 
 1. Add this repository to your local Helm configuration:
-
 ```
 $ helm repo add davivcgarcia https://davivcgarcia.github.io/helm-charts
 ```
 
-2. Check the charts available:
-
+2. Update the local Helm repository indexes:
 ```
-$ helm search repo --regexp 'davivcgarcia/.*'
+$ helm repo update
 ```
 
-3. Have fun! 
+3. Check the charts available:
+```
+$ helm search repo --regexp 'davivcgarcia/*'
+```
+
+4. Install the example charts (dummy NGINX deployment):
+```
+$ helm install example-release davivcgarcia/example
+```
