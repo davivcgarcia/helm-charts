@@ -3,12 +3,22 @@ entries:
   example:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-15T16:00:55.620237405-03:00"
+    created: "2020-05-15T16:50:45.215181102-03:00"
     description: A Helm chart for Kubernetes
-    digest: 3b2b5e0e144b2bf971219f7a7b77a5d557466b818d8313611513e80ea2082483
+    digest: ccabd9d3b5459858df09f741a1ed97a266ca5f08499b08f29b14d8ac9a2236a3
     name: example
     type: application
     urls:
-    - https://davivcgarcia.github.io/helm-charts/example-0.1.0.tgz
+    - https://github.com/davivcgarcia/helm-charts/example-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-05-15T16:50:45.214652088-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 7f3e1631857862197ce0b7f43c31acd8ff39f1626974ccf362394bd260159496
+    name: example
+    type: application
+    urls:
+    - https://github.com/davivcgarcia/helm-charts/example-0.1.0.tgz
     version: 0.1.0
-generated: "2020-05-15T16:00:55.619446686-03:00"
+generated: "2020-05-15T16:50:45.213992762-03:00"
